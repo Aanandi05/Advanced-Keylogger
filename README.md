@@ -14,21 +14,49 @@ This project simulates a realistic malware scenario, designed to educate student
 ## 🛡️ Features
 
 - 🎹 **Keystroke Logging** – Records all keyboard inputs.
+- 📋 **Clipboard Monitoring** – Logs contents copied to clipboard.
 - 🖼️ **Screenshot Capture** – Takes screenshots every second.
 - 🖥️ **System Information Retrieval** – Gathers OS and hardware details.
-- 📋 **Clipboard Monitoring** – Logs contents copied to clipboard.
 - 📧 **Email Exfiltration** – Sends encrypted logs to a configured email address.
 - 🕹️ **Cat Game Overlay** – Chrome Dino-style cat game to distract users.
 
 ---
 
-## 🔍 How It Works
+## 🕹️ Cat Game Interface
 
-1. Runs invisibly, logging keystrokes and clipboard activity.
-2. Captures screenshots in real-time.
-3. Retrieves detailed system and environment info.
-4. Encrypts all data and emails it periodically.
-5. Meanwhile, a fullscreen cat game runs to keep the user engaged.
+While the keylogger silently collects data in the background, the user plays a fullscreen **Cat Game** that acts as a decoy.
+
+### 🎮 Cat Game Screenshots
+
+![Cat Game Screenshot 1](screenshots/catgame1.png)  
+*Simple and playful cat character with obstacle elements.*
+
+![Cat Game Screenshot 2](screenshots/catgame2.png)  
+*Engaging interface to keep the user occupied.*
+
+---
+
+## 🔧 Background Logging in Action
+
+Meanwhile, these background processes execute silently:
+
+### 🖥️ Logger Screenshots
+
+![Logger Screenshot 1](screenshots/logger1.png)  
+*Real-time logs of keystrokes, clipboard, and user data.*
+
+![Logger Screenshot 2](screenshots/logger2.png)  
+*Collected system info, active screenshot capturing visible.*
+
+---
+
+## ⚙️ How It Works
+
+1. The Python script launches silently.
+2. A fullscreen **Cat Game** is displayed to distract the user.
+3. **Keystrokes**, **clipboard content**, and **screenshots** are logged.
+4. Logs are **encrypted** and **emailed** to a specified address.
+5. Game keeps the user engaged while activities remain hidden.
 
 ---
 
