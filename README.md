@@ -1,4 +1,5 @@
-# 🐾 Advanced Keylogger with Cat Game Overlay (Educational Tool)
+# 🐾 StealthScribe
+
 
 > ⚠️ **DISCLAIMER**  
 > This project is strictly for **educational and ethical research purposes only**. Unauthorized or malicious use is illegal and unethical. Always obtain **explicit permission** before deploying or testing such software in any environment.
@@ -7,7 +8,7 @@
 
 ## 🎯 Overview
 
-This project simulates a realistic malware scenario, designed to educate students, researchers, and cybersecurity professionals on how keyloggers operate — with an added twist: a **Cat Game overlay** to distract users while data is collected silently in the background.
+This project simulates a realistic malware/spyware scenario, designed to educate students, researchers, and cybersecurity professionals on how keyloggers operate — with an added twist: a **Cat Game overlay** to distract users while data is collected silently in the background.
 
 ---
 
